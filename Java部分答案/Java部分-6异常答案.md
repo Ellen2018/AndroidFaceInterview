@@ -31,3 +31,7 @@
 - 8.return在try{}catch{}finally{}中执行具有哪些规则？
 
 > [点击查看答案](https://blog.csdn.net/ns_code/article/details/17485221)
+
+- 9.给我例举至少5个常见的运行时异常。
+
+> [点击查看答案](https://blog.csdn.net/fzy198926/article/details/73699778)

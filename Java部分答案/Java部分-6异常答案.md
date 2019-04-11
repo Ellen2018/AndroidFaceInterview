@@ -22,7 +22,10 @@
 
 - 6.try{}catch{}finally{}可以没有finally吗？
 
-> 可以没有。但try{}catch{}一定要有。
+> try-catch  
+try-finally  
+try-catch-finally  
+以上3种形式都可以
 
 - 7.finally语块有什么特点？
 

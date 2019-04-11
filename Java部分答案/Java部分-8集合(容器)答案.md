@@ -10,6 +10,7 @@
 >析：
 
 >Collection：
+
 >1、Collection是最基本的集合接口，一个Collection代表一组Object，即Collection的元素（Elements）。
 
 >一些Collection允许相同的元素而另一些不行。一些能排序而另一些不行。Java SDK不提供直接继承自Collection的类，Java SDK提供的类都是继承自Collection的“子接口”如List和Set。

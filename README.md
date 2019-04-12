@@ -144,7 +144,7 @@
 - 1.Activity是什么？
 - 2.典型情况下的Activity生命周期？
 - 3.异常情况下的Activity的生命周期 & 数据如何保存和恢复？ 
-- 4.从Activity A跳转到Activity B之后，它们的生命周期调用流程是什么？
+- 4.从Activity A跳转到Activity B之后，然后再点击back建之后，它们的生命周期调用流程是什么？
 - 5.如何统计Activity的工作时间？
 - 6.给我说说Activity的启动模式 & 使用场景。
 - 7.如何在任意位置关掉应用所有Activity & 如何在任意位置关掉指定的Activity？
@@ -382,6 +382,7 @@
 - 5.流媒体服务器了解吗？
 - 6.谈谈你对编码格式的理解。
 - 7.MediaPlayer和SoundPool的区别？
+- 8.视频硬解码和软解码的区别？
 
 ### 2.36 其它Android部分有关面试题
 
@@ -399,6 +400,7 @@
 - 12.谈谈App多进程的好处 & 缺点。
 - 13.说说AMS是怎么找到启动指定的Activity？
 - 14.View的getWidth和getMeasureWidth有啥区别？
+- 15.有插件化或者热修复经验吗？说说它的原理
 
 ## 3.算法与数据结构部分
 

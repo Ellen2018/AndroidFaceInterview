@@ -12,7 +12,6 @@
 > [点击查看答案](https://blog.csdn.net/sinat_33087001/article/details/76977437)
 
 - 3.Java内存结构 & 内存模型。
-
 > [点击查看答案](https://www.cnblogs.com/qingshanli/p/9256387.html)
 
 - 4.GC回收机制。

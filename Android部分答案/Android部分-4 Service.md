@@ -12,7 +12,7 @@
 
 - 5.给我说说Service保活方案。
 
-> [Service](https://www.cnblogs.com/blosaa/p/9530625.html)
+> [点击查看答案](https://www.cnblogs.com/blosaa/p/9530625.html)
 
 - 6.IntentService是什么 & 原理 & 使用场景。
 

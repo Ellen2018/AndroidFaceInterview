@@ -10,7 +10,6 @@
 > [String和CharSequence区别](https://www.cnblogs.com/skywang12345/p/string01.html)
 
 - 3.equals和==的区别？
-
 > [点击查看答案](https://www.cnblogs.com/smyhvae/p/3929585.html)
 
 - 4.关于字符串的拼接你在项目中常常怎么操作的？为什么不能用“+”的方式进行拼接呢？

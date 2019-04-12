@@ -49,7 +49,7 @@
 - 11.什么情况下Activity不走onDestory?
 - 12.什么情况下Activity会单独执行onPause?
 
-> 11~12题答案也在1~3的答案链接里。
+> 11和12题答案也在1-3的答案链接里。
 
 - 13.a->b->c界面，其中b是SingleInstance的，那么c界面点back返回a界面，为什么？
 

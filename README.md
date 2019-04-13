@@ -80,7 +80,6 @@
 - 13.说说LinkedHashMap原理。
 - 14.Collection 和 Collections的区别？
 - 15.比较一下ArrayMap和HashMap。
-- 16.谈谈你对ReentrantLock的认识。
 
 ### 1.9 线程
 
@@ -100,6 +99,7 @@
 - 14.谈谈线程阻塞的原因有哪些？
 - 15.谈谈你对notify的理解？
 - 16.你觉得Lock和Synchronized的区别是什么？
+- 17.谈谈你对ReentrantLock的认识。
 
 ### 1.10 泛型
 
@@ -153,6 +153,7 @@
 - 9.什么是动态代理 & 什么是静态代理？
 - 10.String为什么会加final？
 - 11.OOM可以try{}catch{}吗？
+- 12.给我谈谈正则表达式。
 
 ## 2.Android 部分
 
@@ -160,7 +161,7 @@
 
 - 1.Activity是什么？
 - 2.典型情况下的Activity生命周期？
-- 3.异常情况下的Activity的生命周期 & 数据如何保存和恢复？ 
+- 3.异常情况下的Activity的生命周期 & 数据如何保存和恢复？
 - 4.从Activity A跳转到Activity B之后，然后再点击back建之后，它们的生命周期调用流程是什么？
 - 5.如何统计Activity的工作时间？
 - 6.给我说说Activity的启动模式 & 使用场景。
@@ -205,7 +206,7 @@
 - 4.如何使用Handler让子线程和子线程通信？
 - 5.你能给我说说Handler的设计原理？
 - 6.HandlerThread是什么 & 原理 & 使用场景？
-- 7.IdleHandler是什么？它和Handler的区别。
+- 7.IdleHandler是什么？
 
 ### 2.6 AsyncTask
 

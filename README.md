@@ -249,7 +249,7 @@
 - 2.RecyclerView是什么？如何使用？如何返回不一样的Item。
 - 3.ListView和RecycyclerView的区别是什么？
 - 4.分别讲讲你对ListView & RecyclerView的优化经验。
-- 5.给我说说RecyclerView的recycle机制。
+- 5.给我说说RecyclerView的回收复用机制
 - 6.说说你是如何给ListView & RecyclerView加上拉刷新 & 下拉加载更多机制。
 
 ### 2.12 图片编程
@@ -262,6 +262,7 @@
 - 6.如果让你设计一个图片加载库，你会如何设计？
 - 7.有一张非常大的图片,你如何去加载这张大图片？
 - 8.你知道Android中处理图片的一些库吗(OpenCv & GPUImage ...)？
+- 9.如何计算一张图片在内存中占用的大小？
 
 ### 2.13 WebView
 

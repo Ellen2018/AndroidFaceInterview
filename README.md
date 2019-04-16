@@ -16,7 +16,7 @@
 
 - 1.什么是操作系统？
 - 2.什么是线程，什么是进程？
-   
+
 ### 1.2 JDK&JVM&JRE
 
 - 1.JDK & JVM & JRE分别是什么以及它们的区别？
@@ -34,6 +34,8 @@
 - 9.闭包和内部类的区别？
 - 10.Java多态的实现机制是什么？
 - 11.谈谈你对对象生命周期的认识？
+- 12.static关键字的作用？
+- 13.final关键字的作用。
 
 ### 1.4 八大基本数据类型&引用类型
 
@@ -84,7 +86,7 @@
 ### 1.9 线程
 
 - 1.什么是线程？能解决什么问题。
-- 2.Java中创建线程的2种方式。
+- 2.Java中创建线程的2种方式 & 区别？
 - 3.给我说说线程的生命周期。
 - 4.线程死锁的原因 & 举个栗子 & 如何避免死锁。
 - 5.Synchronized放在静态方法和非静态方法上的锁对象分别是什么？
@@ -100,6 +102,11 @@
 - 15.谈谈你对notify的理解？
 - 16.你觉得Lock和Synchronized的区别是什么？
 - 17.谈谈你对ReentrantLock的认识。
+- 18.调用run()和start()的区别？
+- 19.transient关键字的用法 & 作用 & 原理。
+- 20.ThreadPoolExecutor的工作策略有哪些？
+- 21.ThreadLocal了解吗？说说原理。
+- 22.权衡多线程的性能。
 
 ### 1.10 泛型
 
@@ -129,6 +136,7 @@
 - 2.请讲讲你会使用的一些设计模式？
 - 3.请说说单例模式 & 你项目中常用的单例模式。
 - 4.懒汉单例模式为什么要加volaitle？
+- 5.能否给我说说Android中至少3个用到设计模式的栗子？
 
 ### 1.15 JVM相关
 
@@ -139,6 +147,15 @@
 - 5.Java虚拟机是如何加载一个类的？
 - 6.给我谈谈类加载器。
 - 7.谈谈static编译运行时的流程，在虚拟机中如何保存的？
+- 8.说说Java种的4种引用以及用法？
+- 9.如何判断一个对象是死亡的？
+- 10.代码中直接调用System.gc()会发生什么？
+- 11.一个强引用直接被null赋值，那么这个对象会被立刻回收吗？
+- 12.String a = "a"+"b"+"c";在内存中创建了几个对象？
+- 13.谈谈你对字符集的理解。
+- 14.常见的编码格式有哪些？
+- 15.utf-8中的中文占几个字节？int型占几个字节？
+- 16.谈谈你对逻辑地址和物理地址的理解？
 
 ### 1.16 其它Java部分有关面试题
 
@@ -154,8 +171,15 @@
 - 10.String为什么会加final？
 - 11.OOM可以try{}catch{}吗？
 - 12.给我谈谈正则表达式。
+- 13.如何将String转成int?
+- 14.谈谈你对String的理解。
+- 15.你如何理解序列化？有哪些方式序列化？
+- 16.谈谈你对依赖注入的理解。
+- 17.给我谈谈你对分派的理解。
 
 ## 2.Android 部分
+
+- 四大组件是哪四个？
 
 ### 2.1 Activity
 
@@ -173,6 +197,15 @@
 - 12.什么情况下Activity会单独执行onPause?
 - 13.a->b->c界面，其中b是SingleInstance的，那么c界面点back返回a界面，为什么？
 - 14.如果一个Activity弹出一个Dialog,那么这个Acitvity会回调哪些生命周期函数呢？
+- 15.Activity之间如何通信 & Activity和Fragment之间通信 & Activity和Service之间通信？
+- 16.说说Activity横竖屏切换的生命周期。
+- 17.前台切换到后台，然后在回到前台时Activity的生命周期。
+- 18.下拉状态栏时Activity的生命周期？
+- 19.Activity与Fragment的生命周期比较？
+- 20.了解哪些Activity常用的标记位Flags？
+- 21.谈谈隐式启动和显示启动Activity的方式？
+
+
 
 ### 2.2 BroadcastReceiver
 
@@ -187,6 +220,8 @@
 - 1.什么是内容提供者？
 - 2.说说如何创建自己应用的内容提供者 & 使用场景。
 - 3.说说ContentProvider的原理。
+- 4.ContentProvider,ContentResolver,ContentObserver之间的关系？
+- 5.说说ContentProvider的权限管理。
 
 ### 2.4 Service
 
@@ -195,8 +230,12 @@
 - 3.Service和Thread的区别？
 - 4.Android 5.0以上的隐式启动问题及其解决方案。
 - 5.给我说说Service保活方案
-- 6.IntentService是什么 & 原理 & 使用场景。
+- 6.IntentService是什么 & 原理 & 使用场景 & 和Service的区别。
 - 7.创建一个独立进程的Service应该怎样做？
+- 8.Service和Activity之间如何通信？
+- 9.说说你了解的系统Service。
+- 10.谈谈你对ActivityManagerService的理解。
+- 11.在Activtiy中创建一个Thread和在一个Service中创建一个Thread的区别？
 
 ### 2.5 Handler
 
@@ -207,12 +246,19 @@
 - 5.你能给我说说Handler的设计原理？
 - 6.HandlerThread是什么 & 原理 & 使用场景？
 - 7.IdleHandler是什么？
+- 8.一个线程能否创建多个Handler,Handler和Looper之间的对应关系？
+- 9.为什么Android系统不建议子线程访问UI？
+- 10.Looper死循环为什么不会导致应用卡死？
+- 11.使用Handler的postDealy后消息队列有什么变化？
+- 12.可以在子线程直接new一个Handler出来吗？
+- 13.Message对象创建的方式有哪些 & 区别？
 
 ### 2.6 AsyncTask
 
 - 1.AsyncTask是什么？能解决什么问题
 - 2.给我谈谈AsyncTask的三个泛型参数作用 & 它的一些方法作用。
 - 3.给我说说AsyncTask的原理。
+- 4.你觉得AsyncTask有不足之处吗？
 
 ### 2.7 Fragment
 
@@ -222,6 +268,8 @@
 - 4.ViewPager + Fragment结合使用会出现内存泄漏吗 & 如何解决？
 - 5.Fragment如何和Activity进行通信 & Fragment之间如何进行通信？
 - 6.给我谈谈Fragment3种切换的方式以及区别 & 使用场景。
+- 7.getFragmentManager,getSupportFragmentManager,getChildFragmentManager之间的区别？
+- 8.FragmentPagerAdapter和FragmentStatePagerAdapter区别？
 
 ### 2.8 序列化
 
@@ -242,6 +290,9 @@
 - 3.第三方数据库框架用过哪些？有没有自己封装过一个SQLite的库？
 - 4.SQLite是线程安全的吗 & SharedPreference是线程安全的吗？
 - 5.请简单的给我说说什么是三级缓存？
+- 6.SharedPreference的apply和commit的区别。
+- 7.谈谈你对SQLite事务的认识。
+- 8.千奇百怪的SQL语句考察。
 
 ### 2.11 ListView & RecyclerView
 
@@ -295,12 +346,16 @@
 - 4.invalidate和postvalidate的区别？
 - 5.说说你在自定义View时常常重写的一些方法？
 - 6.说说自定义View中如何自定义属性？
+- 7.requestLayout(),onLayout(),onDraw(),drawChild()区别和联系？
+- 8.如何计算出一个View的嵌套层级？
+- 9.自定义View如何考虑机型适配？
 
 ### 2.17 布局
 
 - 1.说说Android中有哪些布局 & 特点。
 - 2.你知道布局文件到控件对象的过程吗？
 - 3.有这么一个布局需求，一个文本控件放在屏幕一半的一半的中间位置，你如何进行布局？
+- 4.LinearLayout,FrameLayout,RelativeLayout性能对比，为什么？
 
 ### 2.18 Binder
 
@@ -347,6 +402,7 @@
 
 - 1.什么是冷启动 & 什么是热启动 & 它们的流程？
 - 2.如何优化冷启动？
+- 3.启动页白屏，黑屏，太慢如何解决？
 
 ### 2.26 悬浮窗
 
@@ -397,6 +453,7 @@
 
 - 1.谷歌新出的Flutter知道吗？
 - 2.谷歌新出的官方开发语言Kotlin了解吗 & 和Java相比它有哪些特点。
+- 3.谈谈Kotlin中协程的认识？
 
 ### 2.35 音视频开发(高薪)
 
@@ -429,6 +486,26 @@
 - 16.断点续传了解吗？谈谈你是如何通过多线程实现断点续传的。
 - 17.给我谈谈你对SurfaceView的认识。
 - 18.什么情况下你会使用到ScrollView。
+- 19.低版本SDK如何使用高版本API？
+- 20.AlertDialog,PopWindow,Activity之间的区别？
+- 21.Application和Activity,Context的区别？
+- 22.谈谈Android中多线程通信方式？
+- 23.说说Android大体的架构图，试着画出来。
+- 24.知道SpareArray吗？
+- 25.Activity除了setContentView可以设置布局，还有其它方式吗？
+- 26.Android为每个应用程序分配的内存大小为多少？
+- 27.Android进程保活方案？
+- 28.谈谈Android系统安装apk的过程？
+- 29.Activity,Window,View三者的关系？
+- 30.ActivityThread,ActivityManagerService,WindowManagerService的工作原理？
+- 31.PackageManagerService的工作原理？
+- 32.PowerManagerService的工作原理？
+- 33.在桌面点击一个未启动的App的流程 & 点击一个已启动的App的流程？
+- 34.Android中进程分为哪些种类？
+- 35.什么是埋点，懂点它的原理吗？
+- 36.进程和Application生命周期之间的关系？
+- 37.App相互唤醒的有哪些方式？
+- 38.Android中如何开启多进程？应用是否可以开启N个进程？
 
 ## 3.算法与数据结构部分
 
@@ -478,7 +555,7 @@
 
 - 1.什么是二叉树？
 - 2.什么是先序遍历 & 中序遍历 & 后序遍历。
-- 3.什么是多路查找树？ 
+- 3.什么是多路查找树？
 - 4.什么是红黑树？
 
 ### 3.9 排序
@@ -501,6 +578,9 @@
 ### 3.13 其它有关算法与数据结构的面试题
 
 - 1.什么是图？可以解决一些什么问题？
+- 2.时针走一圈，时针分针重合几次？
+- 3.有一个不均匀的绳子烧完要1个小时，如何算出1小时15分钟？
+- 4.求1000以内的水仙花数以及40亿以内的水仙花数？
 
 ## 4.常用的开源库部分
 

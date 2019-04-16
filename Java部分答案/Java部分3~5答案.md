@@ -20,6 +20,42 @@
 > super:向自己超（父）类对象的一个指针，而这个超类指的是离自己最近的一个父类。  
 > [学习请点击此链接](https://www.cnblogs.com/hasse/p/5023392.html)
 
+- 5.接口和抽象类的区别。
+
+> [点击查看答案](https://www.cnblogs.com/3020815dzq/p/8509137.html)
+
+- 6.静态属性和静态方法能被继承吗？静态方法又是否能被重写呢？
+
+> [点击查看答案](https://www.cnblogs.com/twoheads/p/10244017.html)
+
+- 7.给我说说权限修饰符特性。
+
+> [点击查看答案](https://www.cnblogs.com/chuijingjing/p/9461165.html)
+
+- 8.给我谈谈Java中的内部类。
+
+> [点击查看答案](https://www.cnblogs.com/dolphin0520/p/3811445.html)
+
+- 9.闭包和内部类的区别？
+
+> [点击查看答案](https://www.cnblogs.com/tiancai/p/7350464.html)
+
+- 10.Java多态的实现机制是什么？
+
+> [点击查看答案](https://www.cnblogs.com/crane-practice/p/3671074.html)
+
+- 11.谈谈你对对象生命周期的认识？
+
+> [点击查看答案](https://www.cnblogs.com/mengfanrong/p/4007456.html)
+
+- 12.static关键字的作用？
+
+> [点击查看答案](https://www.cnblogs.com/starhu/p/5150241.html)
+
+- 13.final关键字的作用。
+
+> [点击查看答案](https://www.cnblogs.com/xiaoxi/p/6392154.html)
+
 ### 1.4 八大基本数据类型&引用类型
 
 - 1.说说Java中的8大基本类型 & 内存中占有的字节 & 什么是引用类型？
@@ -29,15 +65,15 @@
 - 2.什么是拆箱 & 装箱，能给我举栗子吗？
 
         public class CzDemo {
-    
+
             public static void testInt(int a){
                 System.out.println(a);
             }
-    
+
             public static void testInteger(Integer a){
                 System.out.println(a);
             }
-    
+
             public static void main(String[] args){
                 Integer integer = new Integer(3);
                 //这里进行了拆箱，将Integer拆箱为int
@@ -54,3 +90,7 @@
 - 1.能说说多维数组在内存上是怎么存储的吗？
 
 >[点击查看答案](https://blog.csdn.net/ClAndEllen/article/details/81710931)
+
+- 2.你对数组二次封装过吗？说说封装了什么
+
+> 这题笔者就不提供答案了。

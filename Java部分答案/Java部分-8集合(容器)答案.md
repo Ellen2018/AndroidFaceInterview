@@ -78,3 +78,7 @@
 - 14.Collection 和 Collections的区别？
 
 > [点击查看答案](https://www.cnblogs.com/cathyqq/p/5279859.html)
+
+- 15.比较一下ArrayMap和HashMap。
+
+> [点击查看答案](https://www.cnblogs.com/clwydjgs/p/9185574.html)

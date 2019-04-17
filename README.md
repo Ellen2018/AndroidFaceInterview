@@ -179,7 +179,7 @@
 
 ## 2.Android 部分
 
-- 四大组件是哪四个？
+- 四大组件是哪四个？ABCS(Activity,Braodcast,ContentProvider,Service)
 
 ### 2.1 Activity
 

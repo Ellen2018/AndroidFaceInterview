@@ -23,3 +23,5 @@
 > [点击查看答案](https://www.cnblogs.com/dasusu/p/7746946.html)
 
 - 6.说说你是如何给ListView & RecyclerView加上拉刷新 & 下拉加载更多机制。
+
+> 这题笔者不提供答案。SwipeRefreshLayout加第三方库都可以讲讲。

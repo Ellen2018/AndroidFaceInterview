@@ -31,3 +31,6 @@
 > [volatile使用](https://www.cnblogs.com/sunrunzhi/p/3930297.html)  
 > [volatile原理](https://www.cnblogs.com/dolphin0520/p/3920373.html)  
 > 结合volaitle原理讲解，就是为了让单例模式在多线程环境下更加安全可靠。
+
+- 5.能否给我说说Android中至少3个用到设计模式的栗子？
+> 这题笔者就不提供答案了。

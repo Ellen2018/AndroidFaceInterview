@@ -28,4 +28,4 @@
 
 - 8.FragmentPagerAdapter和FragmentStatePagerAdapter区别？
 
-> [点击查看答案](https://www.jianshu.com/p/a976bbefaeec)
+> [点击查看答案](https://www.cnblogs.com/nbls/p/7252307.html)

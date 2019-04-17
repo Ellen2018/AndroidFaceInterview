@@ -5,7 +5,7 @@
 
 > [1~2题答案](https://www.cnblogs.com/younghao/p/5897702.html)  
 > [MVP栗子(GitHub)](https://github.com/JessYanCoding/MVPArms)
-> [MMVM栗子(GitHub)](https://github.com/goldze/MVVMHabit)
+> [MVVM栗子(GitHub)](https://github.com/goldze/MVVMHabit)
 
 - 3.以登陆界面为例子,设计MVP架构。
 

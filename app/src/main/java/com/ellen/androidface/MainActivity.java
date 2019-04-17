@@ -37,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onStop() {
+        super.onStop();
+        Log.e("哈哈","onStop");
+    }
+
+    @Override
     protected void onResume() {
         super.onResume();
         Log.e("哈哈","onResume");

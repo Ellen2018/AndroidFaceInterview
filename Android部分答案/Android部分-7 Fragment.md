@@ -21,3 +21,11 @@
 - 6.给我谈谈Fragment3种切换的方式以及区别 & 使用场景。
 
 > [5~6题答案](https://blog.csdn.net/clandellen/article/details/79269680)
+
+- 7.getFragmentManager,getSupportFragmentManager,getChildFragmentManager之间的区别？
+
+> [点击查看答案](https://blog.csdn.net/Allan_Bst/article/details/64920076)
+
+- 8.FragmentPagerAdapter和FragmentStatePagerAdapter区别？
+
+> [点击查看答案](https://www.jianshu.com/p/a976bbefaeec)

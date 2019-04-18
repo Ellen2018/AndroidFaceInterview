@@ -20,6 +20,7 @@
 ### 1.2 JDK&JVM&JRE
 
 - 1.JDK & JVM & JRE分别是什么以及它们的区别？
+- 2.解释一下为什么Java可以跨平台？
 
 ### 1.3 面向过程 & 面向对象
 
@@ -82,6 +83,7 @@
 - 13.说说LinkedHashMap原理。
 - 14.Collection 和 Collections的区别？
 - 15.比较一下ArrayMap和HashMap。
+- 16.说说HashMap的原理。
 
 ### 1.9 线程
 
@@ -205,6 +207,10 @@
 - 20.了解哪些Activity常用的标记位Flags？
 - 21.谈谈隐式启动和显示启动Activity的方式？
 - 22.Activity用Intent传递数据和Bundle传递数据的区别？为什么不用HashMap呢？
+- 23.在隐式启动中Intent可以设置多个action,多个category吗 & 顺便讲讲它们的匹配规则？
+- 24.Activity可以设置为对话框的形式吗？
+- 25.如何给Activity设置进入和退出的动画？
+- 26.Activity使用Intent传递数据是否有限制 & 如果传递一个复杂的对象，例如一个复杂的控件对象应该怎么做？
 
 ### 2.2 BroadcastReceiver
 
@@ -269,6 +275,7 @@
 - 6.给我谈谈Fragment3种切换的方式以及区别 & 使用场景。
 - 7.getFragmentManager,getSupportFragmentManager,getChildFragmentManager之间的区别？
 - 8.FragmentPagerAdapter和FragmentStatePagerAdapter区别？
+- 9.Fragment如何实现类似Activity栈的压栈和出栈效果的？
 
 ### 2.8 序列化
 
@@ -293,6 +300,7 @@
 - 7.谈谈你对SQLite事务的认识。
 - 8.千奇百怪的SQL语句考察。
 - 9.SharePreference跨进程使用会怎么样？如何保证跨进程使用安全？
+- 10.谈谈SQLite升级要注意哪些地方？
 
 ### 2.11 ListView & RecyclerView
 
@@ -302,6 +310,10 @@
 - 4.分别讲讲你对ListView & RecyclerView的优化经验。
 - 5.给我说说RecyclerView的回收复用机制
 - 6.说说你是如何给ListView & RecyclerView加上拉刷新 & 下拉加载更多机制。
+- 7.谈谈你是如何对ListView & RecycleView进行局部刷新的？
+- 8.谈谈如何进行分页加载？
+- 9.ScrollView下嵌套一个ListView通常会出现什么问题？
+- 10.一个ListView或者一个RecyclerView在显示新闻数据的时候，出现图片错位，可能的原因有哪些 & 如何解决？
 
 ### 2.12 图片编程
 
@@ -425,6 +437,7 @@
 
 - 1.ANR是什么？导致原因有哪些？
 - 2.谈谈你项目中避免ANR的一些经验。
+- 3.分别说说Activity & BroadcastReceiver & Serice最长可耗时时间为多少？
 
 ### 2.30 内存优化
 
@@ -448,6 +461,7 @@
 - 1.说说你用过的项目架构？
 - 2.分别给我说说MVC,MVP,MVVM特点和区别。
 - 3.以登陆界面为例子,设计MVP架构。
+- 4.谈谈AndroidManifest.xml文件的理解。
 
 ### 2.34 Android前沿知识
 
@@ -507,6 +521,10 @@
 - 37.App相互唤醒的有哪些方式？
 - 38.Android中如何开启多进程？应用是否可以开启N个进程？
 - 39.谈谈消息推送的方式有哪些？
+- 40.谈谈你对Root权限的理解。
+- 41.谈谈项目如何进行国际化？
+- 42.谈谈你对Intent和IntentFilter的理解。
+- 43.一条最长的短信息约占多少byte？
 
 ## 3.算法与数据结构部分
 
@@ -583,6 +601,7 @@
 - 3.有一个不均匀的绳子烧完要1个小时，如何算出1小时15分钟？
 - 4.求1000以内的水仙花数以及40亿以内的水仙花数？
 - 5.数据怎么压缩，数据的安全。
+- 6.谈谈你对对称加密 & 非对称加密的理解。
 
 ## 4.常用的开源库部分
 
@@ -639,6 +658,9 @@
 - 13.Json解析方式有哪些？比较它们的优劣势。
 - 14.XML解析方式有哪些？比较它们的优劣势。
 - 15.http1.x & http 2.0区别是什么？
+- 16.说说HTTP缓存的原理。
+- 17.如果有个100M大的文件，需要上传至服务器中，而服务器form表单最大只能上传2M,可以使用什么方法？
+- 18.说说你项目中即时通讯的方案有哪些？
 
 ------------------------------------------------------------------
 文章整理：  

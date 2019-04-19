@@ -82,3 +82,7 @@
 - 15.比较一下ArrayMap和HashMap。
 
 > [点击查看答案](https://www.cnblogs.com/clwydjgs/p/9185574.html)
+
+- 16.说说HashMap的原理。
+
+> [点击查看答案](https://www.cnblogs.com/chengxiao/p/6059914.html)

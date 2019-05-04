@@ -106,7 +106,7 @@
 - 17.谈谈你对ReentrantLock的认识。
 - 18.调用run()和start()的区别？
 - 19.transient关键字的用法 & 作用 & 原理。
-- 20.线程池的工作原理 & ThreadPoolExecutor的工作策略有哪些？
+- 20.线程池的种类  & 工作原理 & ThreadPoolExecutor的工作策略有哪些？
 - 21.ThreadLocal了解吗？说说原理。
 - 22.权衡多线程的性能。
 - 23.如何理解同步和异步，阻塞和非阻塞。

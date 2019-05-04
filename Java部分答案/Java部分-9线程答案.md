@@ -96,6 +96,7 @@
 - 20.ThreadPoolExecutor的工作策略有哪些？
 
 > [点击查看答案](https://www.cnblogs.com/lic309/p/4564507.html)
+> [线程池的工作原理](https://www.cnblogs.com/qingquanzi/p/8146638.html)
 
 - 21.ThreadLocal了解吗？说说原理。
 

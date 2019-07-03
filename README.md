@@ -42,6 +42,7 @@
 
 - 1.说说Java中的8大基本类型 & 内存中占有的字节 & 什么是引用类型？
 - 2.什么是拆箱 & 装箱，能给我举栗子吗？
+- 3.知道float和double类型为什么会出现精度丢失的情况吗？
 
 ### 1.5 数组
 
@@ -213,6 +214,8 @@
 - 24.Activity可以设置为对话框的形式吗？
 - 25.如何给Activity设置进入和退出的动画？
 - 26.Activity使用Intent传递数据是否有限制 & 如果传递一个复杂的对象，例如一个复杂的控件对象应该怎么做？
+- 27.在Activity中可以多次调用setContentView方法吗？说说不同时机第二次调用setContentView会发生什么？
+- 28.说说分别在Activity里每一个生命周期函数里调用finish方法后，接下来Activity的生命周期如何回调？
 
 ### 2.2 BroadcastReceiver
 
@@ -259,6 +262,12 @@
 - 11.使用Handler的postDealy后消息队列有什么变化？
 - 12.可以在子线程直接new一个Handler出来吗？
 - 13.Message对象创建的方式有哪些 & 区别？
+- 14.ANR和Handler存在什么联系吗？
+- 15.子线程的Looper和主线程的Looper有什么区别？
+- 16.说说Handler为什么不能进行跨进程通信？
+- 17.Handler的消息延时是如何实现的？
+- 18.什么是消息屏障？
+- 19.假设主线程new了Handler A和Handler B以及Handler C,现在有个子线程，在子线程中通过Handler C发送了一条消息，那么Handler A和Handler B能接收到吗？为什么？
 
 ### 2.6 AsyncTask
 
@@ -427,6 +436,7 @@
 
 - 1.最新的Android版本多少知道吗？有哪些特性
 - 2.说说更新较大的Android版本。
+- 3.说说看如何兼容AndroidX？
 
 ### 2.28 Android Studio
 
@@ -650,7 +660,7 @@
 - 3.TCP/UDP协议工作在哪一层？
 - 4.给我说说三次握手和四次挥手。
 - 5.什么是请求头 & 响应头 ? 说说请求头中一些重要的字段。
-- 6.什么是Cookie & Session。
+- 6.什么是Cookie & Session & Token。
 - 7.知道什么是心跳检测吗？
 - 8.Http和Https的区别？
 - 9.加密协议TLS/SSL加密过程是怎样的？

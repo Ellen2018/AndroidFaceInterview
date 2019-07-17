@@ -68,7 +68,7 @@
 - 1.NIO是什么 & BIO是什么 & AIO是什么 & 它们之间的区别？
 - 2.IO按照方向和数据类型划分能划分为哪些数据流？
 - 3.能给我说说NIO有什么特点？平常开发中使用过吗？
-- 4.如何读取一个txt文本文件乱码了，你觉得原因是什么？
+- 4.如果读取一个txt文本文件乱码了，你觉得原因是什么？
 
 ### 1.8 集合(容器)
 
@@ -366,10 +366,14 @@
 
 - 1.什么是事件分发机制？主要用来解决什么问题？
 - 2.给我说说事件分发的流程 & 你项目解决事件冲突的一些案例。
-- 3.多点触摸事件平时接触过吗？如何监听用户第二个手指，第三个...？
-- 4.OnTouchListener & OnTouchEvent & OnClickListener三者之间的关系？
-- 5.谈谈你对MotionEvent的认识？Cancel事件是什么情况下触发的？
-- 6.能给我谈谈Android中坐标体系吗？
+- 3.分别讲讲有关事件分发的三个方法的作用及关系。
+- 4.如果我在一个设置了点击事件的TextView中dispatchTouchEvent方法强制返回ture或者false会发生什么？
+- 5.cancel事件是怎么产生的，说说详细的流程。
+- 6.线性布局A下面放置一个Button,如果给Button设置了点击事件，在线性布局A中重写了dispatchTouchEvent,onInterceptHoverEvent，而且它们都回了true,那么Button的点击事件会被调用吗？当前Activity的onTouchEvent又是否会被调用呢？为什么？
+- 7.多点触摸事件平时接触过吗？如何监听用户第二个手指，第三个...？
+- 8.OnTouchListener & OnTouchEvent & OnClickListener三者之间的关系？
+- 9.谈谈你对MotionEvent的认识？Cancel事件是什么情况下触发的？
+- 10.能给我谈谈Android中坐标体系吗？
 
 ### 2.16 View绘制机制
 

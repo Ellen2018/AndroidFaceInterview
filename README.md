@@ -87,7 +87,7 @@
 - 13.说说LinkedHashMap原理。
 - 14.Collection 和 Collections的区别？
 - 15.比较一下ArrayMap & SparseArray & HashMap。
-- 16.说说HashMap的原理。+
+- 16.说说HashMap的原理。
 
 ### 1.9 线程
 

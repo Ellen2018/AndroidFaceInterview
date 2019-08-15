@@ -88,6 +88,7 @@
 - 14.Collection 和 Collections的区别？
 - 15.比较一下ArrayMap & SparseArray & HashMap。
 - 16.说说HashMap的原理。
+- 17.写代码仿写LikedList。
 
 ### 1.9 线程
 
@@ -118,7 +119,10 @@
 - 22.从源码角度讲讲你对Thread类中run方法的理解。
 - 23.谈谈Java内存模型。
 - 24.两次调用Thread对象的start方法会发生什么？为什么？
-- 25.Thread的sleep方法会清楚中断的状态吗？
+- 25.Thread的sleep方法会清除中断的状态吗？
+- 26.为什么线程通信的方法wait,notify,notifyAll被定义于Object中，而sleep方法被定义在Thread类中？
+- 28.说说Thread类中提供的getState()方法作用，然后说说线程的状态有哪些以及转换过程。
+- 29.用至少2种方式手写生产者消费者模式代码。
 
 ### 1.10 泛型
 
@@ -188,7 +192,7 @@
 - 8.final,finally,finalize的区别？
 - 9.什么是动态代理 & 什么是静态代理？
 - 10.String为什么会加final？
-- 11.OOM可以try{}catch{}吗？
+- 11.OOM可以被try{}catch{}吗？
 - 12.给我谈谈正则表达式。
 - 13.如何将String转成int?
 - 14.谈谈你对String的理解。
@@ -441,6 +445,7 @@
 ### 2.24 蓝牙
 
 - 1.说说最新的蓝牙版本？新版本的特性是什么？
+- 2.蓝牙第三方框？
 
 ### 2.25 冷启动&热启动
 

@@ -123,6 +123,10 @@
 - 26.为什么线程通信的方法wait,notify,notifyAll被定义于Object中，而sleep方法被定义在Thread类中？
 - 28.说说Thread类中提供的getState()方法作用，然后说说线程的状态有哪些以及转换过程。
 - 29.用至少2种方式手写生产者消费者模式代码。
+- 30.interrupted和isInterrupted方法的区别？
+- 31.分别讲讲JVM内存结构,Java内存模型,Java对象模型。
+- 32.什么是happens-before?
+- 33.什么是JMM?
 
 ### 1.10 泛型
 

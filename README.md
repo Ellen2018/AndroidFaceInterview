@@ -380,7 +380,7 @@
 
 - 1.什么是事件分发机制？主要用来解决什么问题？(校招&实习)
 - 2.给我说说事件分发的流程 & 你项目解决事件冲突的一些案例。
-3.分别讲讲有关事件分发的三个方法的作用及关系。	-
+- 3.分别讲讲有关事件分发的三个方法的作用及关系。	
 - 4.如果我在一个设置了点击事件的TextView中dispatchTouchEvent方法强制返回ture或者false会发生什么？	
 - 5.谈谈你对MotionEvent的认识？Cancel事件是什么情况下触发的？
 - 6.线性布局A下面放置一个Button,如果给Button设置了点击事件，在线性布局A中重写了dispatchTouchEvent,onInterceptHoverEvent，而且它们都回了true,那么Button的点击事件会被调用吗？当前Activity的onTouchEvent又是否会被调用呢？为什么？	

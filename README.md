@@ -238,6 +238,16 @@
 - 29.有什么方法可以启动一个没有在AndroidManifest.xml中注册过的Activity?	
 - 30.在Activity进行配置时，catrgory和action的区别是什么？	
 - 31.activity中分别在onCreate，onStart，onResume中调用finish后的生命周期如何回调？
+- 32.锁定屏与解锁屏幕，Activity 生命周期？
+- 33.如何设置Activity进入和退出的动画？
+- 34.谈谈你对Activity中onNewIntent()方法的认识？
+- 35.如果一个Activity启动比较慢，需要优化，你觉得可以从哪些方面入手？
+- 36.Activity之间传递数据的方式Intent是否有大小限制，如果传递的数据量偏大，有哪些方案？
+- 37.了解scheme跳转协议吗？谈一谈
+- 38.谈谈你对Activity的Context的认识？
+- 39.如何在Application中获取当前Activity实例？
+- 40.Activity进程优先级？
+- 41.Activity出现ANR的条件有哪些 & 解决方案？
 
 ### 2.2 BroadcastReceiver
 

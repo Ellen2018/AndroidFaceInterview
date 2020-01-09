@@ -579,7 +579,7 @@
 - 20.AlertDialog,PopWindow,Activity之间的区别？
 - 21.Application和Activity,Context的区别？
 - 22.谈谈Android中多线程通信方式？
-- 23.说说Android大体的图，试着画出来。
+- 23.说说Android大体的架构图，试着画出来。
 - 24.知道SpareArray吗？
 - 25.Activity除了setContentView可以设置布局，还有其它方式吗？
 - 26.Android为每个应用程序分配的内存大小为多少？

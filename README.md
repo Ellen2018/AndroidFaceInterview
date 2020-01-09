@@ -6,7 +6,7 @@
 > &emsp;&emsp;本面试题集只应对于Android求职者,有7个模块：  
 > &emsp;&emsp;**Java部分**    
 > &emsp;&emsp;**Kotlin部分**  
-> &emsp;&emsp;**Android部分**    
+> &emsp;&emsp;**Android部分**
 > &emsp;&emsp;**移动UI框架部分(Flutter为主)**  
 > &emsp;&emsp;**数据结构与算法部分**  
 > &emsp;&emsp;**常用的开源库部分**  
@@ -86,6 +86,8 @@
 - 14.Collection 和 Collections的区别？
 - 15.比较一下ArrayMap和HashMap。
 - 16.说说HashMap的原理。
+- 17.从源码角度剖析ArrayList,LinkedList
+- 18.你如何看代Java 8中HashMap引入红黑树？
 
 ### 1.9 线程
 
@@ -182,6 +184,7 @@
 - 15.utf-8中的中文占几个字节？int型占几个字节？
 - 16.谈谈你对逻辑地址和物理地址的理解？
 - 17.你知道对象什么时候会回调finalize方法吗？
+- 18.什么是Java内存模型 & Java7、8、9内存模型的区别.
 
 ### 1.16 高级Java知识点
 
@@ -523,12 +526,14 @@
 - 2.分别给我说说MVC,MVP,MVVM特点和区别。
 - 3.以登陆界面为例子,设计MVP架构。
 - 4.谈谈AndroidManifest.xml文件的理解。
+- 5.谈谈你对组件化架构的理解
 
 ### 3.34 Android前沿知识
 
 - 1.谷歌新出的Flutter知道吗？
 - 2.谷歌新出的官方开发语言Kotlin了解吗 & 和Java相比它有哪些特点。
 - 3.谈谈Kotlin中协程的认识？
+- 4.Jetpack组件用过吗?使用它的好处
 
 ### 3.35 音视频开发(高薪)
 
@@ -541,7 +546,16 @@
 - 7.MediaPlayer和SoundPool的区别？
 - 8.视频硬解码和软解码的区别？
 
-### 3.36 其它Android部分有关面试题
+### 3.36 热修复 & 插件化
+
+- 1.Java类加载过程？
+- 2.了解哪些热修复框架 & 使用过哪些 & 说出它们的原理
+- 3.谈谈对 ClassLoader 的理解  
+- 4.双亲委托机制的好处  
+- 5.自定义 ClassLoader
+- 6.插件化为什么会出现，如何代码加载，资源加载，代理 Hook？
+
+### 3.37 其它Android部分有关面试题
 
 - 1.说说一个app的启动流程(从源码角度讲解)。
 - 2.你知道无论是Kotlin或者是Java,程序运行的主要入口都是main()方法，那么Android的main方法在哪里？
@@ -552,7 +566,7 @@
 - 7.你知道如何定位内存泄漏吗？
 - 8.说说System.exit(0),onDestory(),Activity.finish()的区别？
 - 9.在OnResume或者之前获取View的宽高为多少 & 为什么？
-- 10.Art & Dvm 区别，特别是谈谈GC的区别。 
+- 10.Art & Dvm 虚拟机区别，特别是谈谈GC的区别。 
 - 11.说说你用的二维码框架 & 有过优化经验吗？
 - 12.谈谈App多进程的好处 & 缺点。
 - 13.说说AMS是怎么找到启动指定的Activity？
@@ -565,7 +579,7 @@
 - 20.AlertDialog,PopWindow,Activity之间的区别？
 - 21.Application和Activity,Context的区别？
 - 22.谈谈Android中多线程通信方式？
-- 23.说说Android大体的架构图，试着画出来。
+- 23.说说Android大体的图，试着画出来。
 - 24.知道SpareArray吗？
 - 25.Activity除了setContentView可以设置布局，还有其它方式吗？
 - 26.Android为每个应用程序分配的内存大小为多少？
@@ -587,6 +601,7 @@
 - 42.谈谈你对Intent和IntentFilter的理解。
 - 43.一条最长的短信息约占多少byte？
 - 44.如何理解组件化设计思想？	
+- 45.如何判断app首次启动，切换至后台，后台切换至前台？
 
 ### 3.38 经验相关面试题	
 
@@ -595,6 +610,24 @@
 - 3.在以往的项目中有没有特别难以解决的问题,最后如何解决的？	
 - 4.请至少例举出5种内存泄漏情况。	
 - 5.熟悉Monkey测试吗？单元测试呢？如何实现？
+- 6.如何区分app环境(测试环境 & 开发环境)？
+- 7.平时采用什么方式调试后端的接口？
+- 8.说说你对开发app调试心得？
+- 9.使用过哪些性能优化工具？
+- 10.你如何区分app环境(debug & release等)
+
+###3.39 安全 & 性能优化
+
+- 1.你认为混淆的作用有哪些？
+- 2.app加固用过哪些 & 加固的原理
+- 3.谈谈你的app性能优化心得(具体可以谈网路,内存,app瘦身,卡顿，布局优化等等)
+
+### 3.40 Gradle
+
+- 1.gradle是什么？
+- 2.gradle是基于什么编程语言的？对它熟悉吗？
+- 3.gradle支持了Kotlin了，有用过吗？
+- 4.gradle能帮你做什么事情？你有自己自定义过吗？
 
 ## 4.移动UI框架部分(Flutter为主)
 
@@ -765,11 +798,13 @@
 - 25.你知道的消息推送方案有哪些？说说自己实现过哪些？怎么实现的？	
 - 26.短轮询 & 长轮询 & 区别 & 优缺点 & 有哪些能替代轮询的良好方案。	
 - 27.谈谈Http缓存问题，在头部中有哪些关于缓存的重要字段，说说它的作用。
+- 28.http(s)请求数据过慢可以从哪些方面进行优化(主要考察网络请求过程的理解)
 
 ------------------------------------------------------------------
 文章整理：  
 [亲爱的面试官，这个我可没看过！（Android部分）](https://www.jianshu.com/p/89f19d67b348)  
 [Android大厂面试题锦集(BAT TMD JD 小米)](https://www.jianshu.com/p/cf5092fa2694)  
 [最全的BAT大厂面试题整理](https://www.jianshu.com/p/c70989bd5f29)  
-[我的 Android 开发实战经验总结](https://www.jianshu.com/p/4f152bc8f4f3)
+[我的 Android 开发实战经验总结](https://www.jianshu.com/p/4f152bc8f4f3)  
+[Android 中高级面试必知必会 from 鸿洋](https://mp.weixin.qq.com/s/17XeoP8DEj2KTnKCBv4H_A)
                                                                                                                                                                                                  

@@ -6,7 +6,7 @@
 > &emsp;&emsp;本面试题集只应对于Android求职者,有7个模块：  
 > &emsp;&emsp;**Java部分**    
 > &emsp;&emsp;**Kotlin部分**  
-> &emsp;&emsp;**Android部分**
+> &emsp;&emsp;**Android部分**  
 > &emsp;&emsp;**移动UI框架部分(Flutter为主)**  
 > &emsp;&emsp;**数据结构与算法部分**  
 > &emsp;&emsp;**常用的开源库部分**  
@@ -263,6 +263,7 @@
 - 39.如何在Application中获取当前Activity实例？
 - 40.Activity进程优先级？
 - 41.Activity出现ANR的条件有哪些 & 解决方案？
+- 42.Activity什么时候加载布局文件的？什么开始进行UI绘制？
 
 ### 3.2 BroadcastReceiver
 
@@ -328,7 +329,7 @@
 - 1.Android中v4包下Fragment和app包下Fragment的区别是什么？
 - 2.Fragment的生命周期 & 请结合Activity的生命周期再一起说说。
 - 3.说说Fragment如何进行懒加载。
-- 4.ViewPager + Fragment结合使用会出现内存泄漏吗 & 如何解决？
+- 4.ViewPager + Fragment结合使用会出现内存泄漏吗 & Fragment在和ViewPager搭配使用时的生命周期情况 & 如何解决？
 - 5.Fragment如何和Activity进行通信 & Fragment之间如何进行通信？
 - 6.给我谈谈Fragment3种切换的方式以及区别 & 使用场景。
 - 7.getFragmentManager,getSupportFragmentManager,getChildFragmentManager之间的区别？
@@ -615,8 +616,8 @@
 - 8.说说你对开发app调试心得？
 - 9.使用过哪些性能优化工具？
 - 10.你如何区分app环境(debug & release等)
-
-###3.39 安全 & 性能优化
+  
+### 3.39 安全 & 性能优化
 
 - 1.你认为混淆的作用有哪些？
 - 2.app加固用过哪些 & 加固的原理
